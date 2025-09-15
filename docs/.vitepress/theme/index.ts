@@ -2,6 +2,11 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import {
+  NolebaseGitChangelogPlugin
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import './style.css'
 
 export default {
@@ -12,6 +17,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.use(NolebaseGitChangelogPlugin)
   }
 } satisfies Theme
