@@ -7,7 +7,7 @@ import {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: "_(:з」∠)_",
+  title: "名無しのひとりごと",
   description: "Personal blog",
   sitemap: {
 		hostname: "https://shenxianovo.github.io/", // 网站域名
