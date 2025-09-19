@@ -6,8 +6,10 @@ import {
   NolebaseGitChangelogPlugin
 } from '@nolebase/vitepress-plugin-git-changelog/client'
 
-import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import './style.css'
+import './style/code.scss'
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
+import 'virtual:group-icons.css'
 
 export default {
   extends: DefaultTheme,

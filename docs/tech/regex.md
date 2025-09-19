@@ -48,7 +48,9 @@
 
 ## 不同语言使用
 
-``` python
+::: code-group
+
+``` python [Python]
 import re # Python 标准库自带的正则模块
 # re提供 match, search, find, findall等多种方法，参数列表相同
 
@@ -57,9 +59,11 @@ re.match(pattern, string, flags=0)
 # flags提供了一些简化匹配的参数，其中大部分可以通过正则式实现
 ```
 
-``` csharp
+``` csharp [C#]
 using System.Text.RegularExpressions; // .NET 标准库自带的正则
 
 Regex.Match(string input, string pattern, RegexOptions options)
 // 与Python类似，都有input, pattern以及可选的options
 ```
+
+:::

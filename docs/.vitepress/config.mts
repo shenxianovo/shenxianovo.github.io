@@ -3,6 +3,7 @@ import {
   GitChangelog, 
   GitChangelogMarkdownSection, 
 } from '@nolebase/vitepress-plugin-git-changelog/vite'
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -12,6 +13,11 @@ export default defineConfig({
   sitemap: {
 		hostname: "https://shenxianovo.github.io/", // 网站域名
 	},
+  markdown: {
+    config(md) {
+        md.use(groupIconMdPlugin)
+    },
+  },
   vite: {
     plugins: [
       GitChangelog({
@@ -22,6 +28,7 @@ export default defineConfig({
           disableContributors: true,
         }
       }),
+      groupIconVitePlugin(),
     ],
   },
   themeConfig: {
