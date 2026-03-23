@@ -4,7 +4,7 @@ published: 2026-03-23
 description: '一个 Windows 应用使用监视器的开发记录'
 image: ''
 tags: ['C#', 'WPF', 'Vue.js', 'TypeScript']
-category: '编程'
+category: '项目'
 draft: false 
 lang: ''
 ---
