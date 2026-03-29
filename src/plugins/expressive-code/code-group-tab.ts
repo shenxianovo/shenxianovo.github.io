@@ -1,8 +1,9 @@
 import { definePlugin } from "@expressive-code/core";
 
 /**
- * Expressive Code plugin that extracts `tab="..."` from code block meta
- * and sets it as a `data-tab` attribute on the rendered figure element.
+ * Expressive Code plugin that extracts `tab="..."` from code block meta,
+ * strips it so EC doesn't treat it as unknown, and sets it as a `data-tab`
+ * attribute on the rendered figure for the rehype code-group component to read.
  */
 export function pluginCodeGroupTab() {
 	const tabMap = new WeakMap();

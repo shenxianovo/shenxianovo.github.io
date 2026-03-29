@@ -19,8 +19,8 @@ import { expressiveCodeConfig } from "./src/config.ts";
 import { pluginCodeGroupTab } from "./src/plugins/expressive-code/code-group-tab.ts";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
+import { rehypeCodeGroup } from "./src/plugins/rehype-code-group.mjs";
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
-import { CodeGroupComponent } from "./src/plugins/rehype-component-code-group.mjs";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
@@ -129,10 +129,10 @@ export default defineConfig({
 						important: (x, y) => AdmonitionComponent(x, y, "important"),
 						caution: (x, y) => AdmonitionComponent(x, y, "caution"),
 						warning: (x, y) => AdmonitionComponent(x, y, "warning"),
-						"code-group": CodeGroupComponent,
 					},
 				},
 			],
+			rehypeCodeGroup,
 			[
 				rehypeAutolinkHeadings,
 				{

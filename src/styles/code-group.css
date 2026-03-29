@@ -2,16 +2,16 @@
     .code-group {
         @apply my-4 rounded-[0.75rem] overflow-hidden;
     }
-    .code-group > .expressive-code {
+    .code-group-panel > .expressive-code {
         @apply !my-0;
     }
-    .code-group > .expressive-code,
-    .code-group > .expressive-code .frame,
-    .code-group > .expressive-code .header,
-    .code-group > .expressive-code pre {
+    .code-group-panel > .expressive-code,
+    .code-group-panel > .expressive-code .frame,
+    .code-group-panel > .expressive-code .header,
+    .code-group-panel > .expressive-code pre {
         border-radius: 0 !important;
     }
-    .code-group > .expressive-code .header {
+    .code-group-panel > .expressive-code .header {
         display: none !important;
     }
     .code-group-nav,
