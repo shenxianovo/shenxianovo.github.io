@@ -2,11 +2,13 @@
 import type { CollectionEntry } from "astro:content";
 import path from "node:path";
 import { Icon } from "astro-icon/components";
+import { VIEW_COUNT_API } from "../constants/constants";
 import I18nKey from "../i18n/i18nKey";
 import { i18n } from "../i18n/translation";
 import { getDir } from "../utils/url-utils";
 import ImageWrapper from "./misc/ImageWrapper.astro";
 import PostMetadata from "./PostMeta.astro";
+import ViewCount from "./ViewCount.svelte";
 
 interface Props {
 	class?: string;
@@ -73,6 +75,8 @@ const { remarkPluginFrontmatter } = await entry.render();
             <div>
                 {remarkPluginFrontmatter.minutes} {" " + i18n(remarkPluginFrontmatter.minutes === 1 ? I18nKey.minuteCount : I18nKey.minutesCount)}
             </div>
+            <div>|</div>
+            <ViewCount client:idle slug={entry.slug} apiBase={VIEW_COUNT_API} />
         </div>
 
     </div>
