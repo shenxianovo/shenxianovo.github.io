@@ -4,7 +4,7 @@ published: 2026-03-29
 description: '为博客添加 code group 功能，基于 rehype 实现，支持多代码块的 Tab 切换'
 image: ''
 tags: []
-category: 'Fuwari'
+category: '博客改造'
 draft: false 
 lang: ''
 ---
