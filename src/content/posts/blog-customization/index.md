@@ -16,11 +16,17 @@ lang: ''
 ::github{repo="withastro/astro"}
 ::github{repo="saicaca/fuwari"}
 
+## 数据与统计
+
+### 1. 阅读量统计(View Count)
+
+使用了 Cloudflare KV 与 Workers [查看实现](/posts/blog-customization/view-count/)
+
 ## Markdown 处理与扩展
 
 ### 1. Code Group 支持
 
-[查看实现](/posts/blog-customization/code-group/)
+给 code-group 单独写了一个 rehype 插件 [查看实现](/posts/blog-customization/code-group/)
 
 ### 2. 外链默认开新标签页
 
