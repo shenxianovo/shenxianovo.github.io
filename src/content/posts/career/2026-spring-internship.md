@@ -11,7 +11,7 @@ lang: ''
 
 记录一下 2026 年春招投递实习的情况。
 
-> 岗位颜色说明：<span style="color:#3b82f6">■ 开发</span>&emsp;<span style="color:#a855f7">■ 产品</span>&emsp;<span style="color:#f97316">■ 运营</span>  
+> 岗位颜色说明：<span style="color:#3b82f6">■ 开发</span>&emsp;<span style="color:#a855f7">■ 产品</span>&emsp;<span style="color:#f97316">■ 运营</span>&emsp;<span style="color:#39c5bb">■ 职能</span>  
 > 岗位标记说明：✅：通过 ❌：止步于此 ❔：未更新  
 > 一直显示筛选中的，未计入统计
 
@@ -30,6 +30,7 @@ lang: ''
 | 米哈游   | -              | <span style="color:#3b82f6">游戏构建开发</span>               |   ✅   |   -   |   ❌   |       |       |       |      |
 | 米哈游   | -              | <span style="color:#3b82f6">游戏测试开发</span>               |   ✅   |   -   |   ❌   |       |       |       |      |
 | 哔哩哔哩 | -              | <span style="color:#a855f7">AI 产品经理</span>                |   ✅   |   -   |   ✅   |   -   |   ✅   |   ✅   |      |
+| 哔哩哔哩 | -              | <span style="color:#39c5bb">研发项目管理实习生</span>         |   ❌   |   -   |       |       |       |       |      |
 | 拼多多   | -              | <span style="color:#3b82f6">服务端研发实习生</span>           |   ✅   | 鸽了  |       |       |       |       |      |
 | 美团     | -              | <span style="color:#3b82f6">软件开发工程师</span>             |   ✅   | 鸽了  |       |       |       |       |      |
 | 网易     | 雷火           | <span style="color:#3b82f6">游戏客户端研发工程师</span>       |   ✅   |   ❌   |       |       |       |       |      |
