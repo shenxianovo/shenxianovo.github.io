@@ -23,7 +23,7 @@ lang: ''
 | 字节跳动 | Data语音       | <span style="color:#a855f7">产品经理</span>                   |   ❌   |       |       |       |       |       |       |      |
 | 字节跳动 | 今日头条       | <span style="color:#a855f7">内容策略产品</span>               |   ❌   |       |       |       |       |       |       |      |
 | 腾讯     | 腾讯安全       | <span style="color:#f97316">行业运营</span>                   |   ✅   |   -   |   ❌   |       |       |       |       |      |
-| 腾讯     | 腾讯金融       | <span style="color:#3b82f6">AI 原生工程师</span>              |   ✅   |   -   |   ✅   |   ❔   |       |       |       |      |
+| 腾讯     | 腾讯金融       | <span style="color:#3b82f6">AI 原生工程师</span>              |   ✅   |   -   |   ✅   |   ❌   |       |       |       |      |
 | 阿里巴巴 | 淘天 等2个部门 | <span style="color:#3b82f6">AI 应用研发工程师</span>          |   ✅   |   ❌   |       |       |       |       |       |      |
 | 阿里巴巴 | 飞猪           | <span style="color:#a855f7">产品经理</span>                   |   ❌   |       |       |       |       |       |       |      |
 | 阿里巴巴 | 千问 等6个部门 | <span style="color:#a855f7">AI 产品经理</span>                |   ❌   |       |       |       |       |       |       |      |
