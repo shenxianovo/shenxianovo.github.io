@@ -4,7 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 import ConfigCarrier from "@components/ConfigCarrier.astro";
-import { profileConfig, siteConfig } from "@/config";
+import { mainSiteConfig, profileConfig, siteConfig } from "@/config";
 import {
 	AUTO_MODE,
 	BANNER_HEIGHT,
@@ -70,6 +70,30 @@ const bannerOffsetByPosition = {
 };
 const bannerOffset =
 	bannerOffsetByPosition[siteConfig.banner.position || "center"];
+
+// Site-wide JSON-LD: declares the Blog and its author Person.
+// author.@id points at the main site's #person so Google clusters
+// blog.shenxianovo.com and shenxianovo.com as the same entity.
+const siteJsonLd = {
+	"@context": "https://schema.org",
+	"@graph": [
+		{
+			"@type": "Person",
+			"@id": mainSiteConfig.personId,
+			name: profileConfig.name,
+			url: mainSiteConfig.url,
+			sameAs: [mainSiteConfig.url, ...profileConfig.links.map((l) => l.url)],
+		},
+		{
+			"@type": "Blog",
+			"@id": mainSiteConfig.blogId,
+			url: Astro.site,
+			name: `${profileConfig.name}'s Blog`,
+			inLanguage: siteLang,
+			author: { "@id": mainSiteConfig.personId },
+		},
+	],
+};
 ---
 
 <!DOCTYPE html>
@@ -144,6 +168,8 @@ const bannerOffset =
 
 
 		<slot name="head"></slot>
+
+		<script is:inline type="application/ld+json" set:html={JSON.stringify(siteJsonLd)}></script>
 
 		<link rel="alternate" type="application/rss+xml" title={profileConfig.name} href={`${Astro.site}rss.xml`}/>
 

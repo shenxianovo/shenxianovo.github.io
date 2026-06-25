@@ -7,6 +7,15 @@ import type {
 } from "./types/config";
 import { LinkPreset } from "./types/config";
 
+// Main site (personal homepage) used for entity clustering across subdomains.
+// The `personId` must match the Person @id declared in the main site's JSON-LD,
+// so Google treats blog + main site as the same entity.
+export const mainSiteConfig = {
+	url: "https://shenxianovo.com",
+	personId: "https://shenxianovo.com/#person",
+	blogId: "https://blog.shenxianovo.com/#blog",
+};
+
 export const siteConfig: SiteConfig = {
 	title: "喵~",
 	subtitle: "你好呀~",
