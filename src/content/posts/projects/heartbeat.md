@@ -13,7 +13,7 @@ lang: ''
 ~~其实一开始是想做个类似 死了么 的东西，结果做成了应用时长监控（笑）~~
 
 <center>
-  <a href="https://shenxianovo.com/heartbeat/" target="_blank">点我视奸</a>
+  <a href="https://heartbeat.shenxianovo.com" target="_blank">点我视奸</a>
 </center>
 
 ::github{repo="shenxianovo/Heartbeat"}
