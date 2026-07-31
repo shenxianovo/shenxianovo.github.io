@@ -2,10 +2,10 @@
 title: 'VRChat 技术入门：从 Unity 到 Udon'
 published: 2026-07-31
 description: '面向初学者介绍 VRChat 内容创作涉及的技术栈，包括 Unity、VRChat SDK、Udon、Avatar、World、渲染与上传流程。'
-image: ''
+image: '/images/programming/vrchat-technical-introduction/image.png'
 tags: ['VRChat', 'Unity', 'Udon']
 category: '编程'
-draft: true
+draft: false
 lang: ''
 ---
 
@@ -103,10 +103,10 @@ SDK 还负责处理内容验证、构建和发布。上传并不是简单地把 
 
 World 和 Avatar 都使用 Unity 制作，但它们的技术重点不一样。
 
-| 内容 | 更关注什么 |
-| --- | --- |
-| Avatar | 模型、骨骼、动画、表情、物理和性能 |
-| World | 场景、灯光、交互、UI、音视频和多人体验 |
+| 内容   | 更关注什么                             |
+| ------ | -------------------------------------- |
+| Avatar | 模型、骨骼、动画、表情、物理和性能     |
+| World  | 场景、灯光、交互、UI、音视频和多人体验 |
 
 Avatar 更像一个会被加载到其他玩家场景中的动态角色。它的模型、材质、骨骼和物理组件都会消耗性能，而且这种消耗可能会同时影响同一个房间中的其他玩家。
 
