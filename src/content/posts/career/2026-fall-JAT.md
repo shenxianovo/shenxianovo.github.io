@@ -21,7 +21,7 @@ lang: ''
 | -------- | --------- | ------------------------------------------------------------- | :---: | :---: | :---: | :------: | :---: | :---: | :---: | :---: | ---- |
 | 字节跳动 | Seed      | <span style="color:#3b82f6">机器学习系统SRE工程师</span>      |   ✅   |   -   |   ✅   |   转岗   |       |       |       |       |      |
 | 字节跳动 | Seed      | <span style="color:#3b82f6">机器学习平台工程实习生</span>     |       |       |       | 承接前序 |   ✅   |   ❌   |       |       |      |
-| 字节跳动 | Data AML  | <span style="color:#3b82f6">AI应用开发实习生</span>           |       |       |   ✅   |    ✅     |       |       |       |       |      |
+| 字节跳动 | Data AML  | <span style="color:#3b82f6">AI应用开发实习生</span>           |       |       |   ✅   |    ✅     |       |       |   ✅   |   ✅   |      |
 | DeepSeek |           | <span style="color:#3b82f6">AgentHarness研发工程师</span>     |       |       |       |          |       |       |       |       |      |
 | 月之暗面 | KimiCode  | <span style="color:#3b82f6">CodingAgent研发工程师</span>      |       |       |       |          |       |       |       |       |      |
 | 月之暗面 |           | <span style="color:#3b82f6">Agent Development Engineer</span> |       |       |       |          |       |       |       |       |      |
